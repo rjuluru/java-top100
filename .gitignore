@@ -1,0 +1,18 @@
+# Ignore build files
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore IntelliJ settings
+.idea/
+*.iml
+out/
+
+# Ignore dependencies (for Gradle/Maven)
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/
+
