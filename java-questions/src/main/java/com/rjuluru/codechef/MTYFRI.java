@@ -37,7 +37,7 @@ class MTYFRI
 			int minMotuCount = 0;
 			int maxTomuCount = 0;
 			for (int i = 0; i < tomuElements.length; i++) {
-				if(numOfSwaps > 0) {
+				if(numOfSwaps-- > 0 && motuElements[i] > tomuElements[i]) {
 					minMotuCount += tomuElements[i];
 					maxTomuCount += motuElements[i];
 				}
